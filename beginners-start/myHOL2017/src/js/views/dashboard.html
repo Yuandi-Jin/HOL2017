@@ -4,7 +4,12 @@
  -->
 <div class="oj-hybrid-padding">
   <h1>Dashboard Content Area</h1>
-  <div>
-      To change the content of this section, you will make edits to the dashboard.html file located in the /js/views folder.
+  <div class="oj-flex oj-flex-items-pad">
+    <div class="oj-flex-item">
+      <my-chart id="chart1" chart-type="pie" my-message="My new message from runtime"></my-chart>
+    </div>
+    <div class="oj-flex-item">
+      <my-chart id="chart2" chart-type="line" my-message="My second component message"></my-chart>
+    </div>
   </div>
 </div>

@@ -6,7 +6,7 @@
 /*
  * Your dashboard ViewModel code goes here
  */
-define(['ojs/ojcore', 'knockout', 'jquery'],
+define(['ojs/ojcore', 'knockout', 'jquery', 'jet-composites/my-chart/loader'],
  function(oj, ko, $) {
   
     function DashboardViewModel() {
