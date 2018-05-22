@@ -6,7 +6,7 @@
 /*
  * Your dashboard ViewModel code goes here
  */
-define(['ojs/ojcore', 'knockout', 'jquery', 'jet-composites/my-chart/loader'],
+define(['ojs/ojcore', 'knockout', 'jquery', 'jet-composites/my-table-with-chart/loader'],
  function(oj, ko, $) {
   
     function DashboardViewModel() {
@@ -14,6 +14,14 @@ define(['ojs/ojcore', 'knockout', 'jquery', 'jet-composites/my-chart/loader'],
       // Below are a set of the ViewModel methods invoked by the oj-module component.
       // Please reference the oj-module jsDoc for additional information.
 
+      // should be replaced by a ko observable in VB project
+      self.myTableWithChartPz = {
+        "pzMessageText": "pz messageText",
+        "pzStackValue": "off",
+        "pzColumnArray": [{"headerText": "Employee Id pz", "field": "EmployeeId"},
+                          {"headerText": "Employee Revenue pz", "field": "Revenue"}]
+      };
+      
       /**
        * Optional ViewModel method invoked after the View is inserted into the
        * document DOM.  The application can put logic that requires the DOM being

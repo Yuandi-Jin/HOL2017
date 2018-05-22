@@ -4,12 +4,6 @@
  -->
 <div class="oj-hybrid-padding">
   <h1>Dashboard Content Area</h1>
-  <div class="oj-flex oj-flex-items-pad">
-    <div class="oj-flex-item">
-      <my-chart id="chart1" chart-type="pie" my-message="My new message from runtime"></my-chart>
-    </div>
-    <div class="oj-flex-item">
-      <my-chart id="chart2" chart-type="line" my-message="My second component message"></my-chart>
-    </div>
-  </div>
+  <my-table-with-chart id="myTableWithChart01" my-message="messageText set in dashboard.html" my-pz="[[myTableWithChartPz]] ">
+  </my-table-with-chart>
 </div>

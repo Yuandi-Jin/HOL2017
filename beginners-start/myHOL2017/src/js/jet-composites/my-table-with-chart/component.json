@@ -1,0 +1,24 @@
+{
+  "name": "my-table-with-chart",
+  "displayName": "my-table-with-chart",
+  "description": "A CAA that does experiments on oj-input-text, oj-table, oj-chart and oj-button",
+  "version": "1.0.0",
+  "jetVersion": "5.0.0",
+  "properties": {
+        "myMessage": {
+            "type": "string"
+        },
+        "myPz": {
+            "type": "{pzMessageText:string, pzStackValue:string, pzColumnArray:object}"
+        }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}
